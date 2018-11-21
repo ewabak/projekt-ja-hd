@@ -17,7 +17,6 @@ for mieszkanie in soup.find_all(class_='offer-item-details'):
     cena = [mieszkanie.find('li', class_='offer-item-price').text]
 
 
-
 from flask import Flask, render_template
 
 app = Flask(__name__)
